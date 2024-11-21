@@ -1,0 +1,657 @@
+body {
+    font-family: "Anybody", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color: #000000;
+}
+
+header {
+    background: #363837;
+}
+
+.logo {
+    max-width: 188px;
+}
+
+.navbar {
+    padding: 16px 0;
+}
+
+.be_moButton {
+    font-family: Anybody;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 14.49px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C1DBCD;
+    text-decoration: none;
+}
+
+ul.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    color: #FFF0E6;
+    font-weight: 700;
+    line-height: 0;
+}
+
+ul.navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+}
+
+.offcanvas {
+    top: 58px !important;
+    width: 100% !important;
+    background: #363837;
+    border-top: 3px solid #242424;
+    max-height: calc(100% - 58px);
+}
+
+.offcanvas .offcanvas-body {
+    padding-right: 50px;
+}
+
+/* .offcanvas .offcanvas-body .navbar-nav .nav-item {
+    padding: 10px 0;
+} */
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 24px;
+    line-height: 24.84px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.offcanvas .offcanvas-body .navbar-nav {
+    align-items: end;
+}
+
+.offcanvas-backdrop {
+    top: 66px;
+}
+
+.toggleButton {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+}
+
+
+
+.cardsMainSection .card-section .card {
+    background-color: #000000;
+}
+
+.cardsMainSection .card-section .card .card-content .count {
+    width: 30px;
+    height: 30px;
+    background: #CC6666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100%;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.cardsMainSection .card-section .card .card-content .cardText {
+    color: white;
+}
+
+.cardsMainSection .card-section .card .card-content .cardText .name {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.cardsMainSection .card-section .card .card-content .cardText .title {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 9.68px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.cardsMainSection .text-section {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.cardsMainSection .button-section {
+    margin-top: 1.5rem;
+}
+
+.cardsMainSection .button-section button {
+    background-color: #d9e9de;
+    color: #000;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cardsMainSection .button-section button:hover {
+    background-color: #b2d0bd;
+}
+
+
+.bannerSection {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerSection .bannerContant {
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.bannerSection .bannerContant .textContainer .bannerText {
+    text-align: end;
+}
+
+.bannerSection .bannerContant .bannerText h1 {
+    font-family: Anybody;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF0E6;
+}
+
+.bannerSection .bannerContant .bannerText h2 {
+    font-family: Anybody;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 41.4px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C1DBCD;
+}
+
+.mobileScreen {
+    width: 248px;
+    height: 440px;
+    aspect-ratio: 248 / 440;
+    background: #D9D9D9;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+}
+
+.mobileScreen .videoScreen {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.mobileScreen iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.mobileScreen .videoScreen .theVideo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobileScreen .mobileActButton {
+    text-wrap: nowrap;
+    padding: 10px 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #C1DBCD;
+    border: none;
+    color: #363837;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(0%, -50%);
+}
+
+footer {
+    padding: 100px 0;
+    background: var(--dark);
+    color: #FFF0E6;
+    background: #363837;
+}
+
+footer .footerMain {
+    /* display: flex;
+    gap: 20px; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+footer .footerMain .copyRight {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    color: #fff;
+}
+
+/* .bannerSection .bannerContent {
+    aspect-ratio: 5120/2200;
+} */
+/* 2nd page  */
+
+.tibakeMainSection .display-4 {
+    font-family: 'Anybody', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    color: #FFF0E6;
+}
+
+.tibakeMainSection .lead {
+    color: #C1DBCD;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.tibakeMainSection .screen-placeholder {
+    width: 200px;
+    height: 400px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #bbb;
+    padding: 5px;
+}
+
+.tibakeMainSection .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.tibakeMainSection .contentArea img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tibakeMainSection .description {
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+.secoundBannerSection {
+    aspect-ratio: 1300 / 550;
+    padding: 20px 0;
+}
+
+.secoundBannerSection .secoundBannerContent {
+    height: 100%;
+}
+
+.secoundBannerSection .secoundBannerContent .backArrow {
+    font-family: Anybody;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.49px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    fill: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.secoundBannerSection .secoundBannerContent .backArrow span {
+    display: flex;
+    align-items: center;
+}
+
+.secoundBannerSection .secoundBannerContent .bannerTitle {
+    font-family: Anybody;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF0E6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+
+
+.pricing-table {
+    margin-top: -52px;
+}
+
+.pricing-table .plan {
+    background-color: transparent;
+    border: 1px solid #444;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.pricing-table .plan:hover {
+    background: #FFF0E64D;
+}
+
+.pricing-table .plan .priceTitle {
+    background-color: transparent;
+    color: #C1DBCD;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px 10px 0 0;
+
+    font-family: Anybody;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 31.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.pricing-table .plan:hover .priceTitle {
+    color: #fff;
+}
+
+.pricing-table .priceTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+    background-color: transparent !important;
+}
+
+.pricing-table .priceTable tr {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.pricing-table .priceTable tr td {
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+.pricing-table .priceTable tr .name {
+    font-family: Arimo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 100px;
+}
+
+.pricing-table .priceTable tr .price {
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.pricing-table .plan button {
+    background: #CC6666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.pricing-table .plan button:hover {
+    background-color: #e05b56;
+}
+
+.pricing-table .middle .badge {
+    position: absolute;
+    top: -14px;
+    right: 16px;
+    background-color: #C1DBCD;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Anybody;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16.56px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    align-items: center;
+    line-height: 11.56px;
+}
+
+.priceingSectionMain .textContentSectionMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.priceingSectionMain .textContentSectionMain .textContentSection {
+    max-width: 540px;
+    margin: auto;
+}
+
+.priceingSectionMain .textContentSectionMain .textContentSection .textItem {
+    margin: 100px 0;
+}
+
+.priceingSectionMain .textContentSectionMain .textContentSection .textItem h1 {
+    font-family: Anybody;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 41.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C1DBCD;
+    margin-bottom: 25px;
+
+}
+
+.priceingSectionMain .textContentSectionMain .textContentSection .textItem p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.imgContentMain .imgContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgContentMain .imgContent .imgItem {
+    flex: 1 1 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContentMain .imgContent .imgItem img {
+    width: 100%;
+}
+
+.imgContentMain .bottomtext {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 124px;
+    }
+
+    .navbar {
+        padding: 12px 0;
+        padding-top: 7px;
+    }
+
+    .mobileScreen .mobileActButton {
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bannerSection {
+        aspect-ratio: auto;
+    }
+
+    .bannerSection .bannerContant {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mobileScreen .mobileActButton {
+        width: auto;
+        text-wrap: nowrap;
+        padding: 10px 20px;
+    }
+
+    .bannerSection .bannerContant .bannerText h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .bannerSection .bannerContant .bannerText h2 {
+        font-size: 1.25rem;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .cardsMainSection .text-section {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: start;
+    }
+
+    .button-section button {
+        width: 100%;
+    }
+
+    .copyRight {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    footer .footerMain {
+        align-items: start;
+    }
+
+    footer .footerMain .navigation .navbar-nav {
+        flex-direction: column !important;
+    }
+
+    footer {
+        padding: 20px 0 31px 0;
+    }
+
+    .tibakeMainSection .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .tibakeMainSection .lead {
+        font-size: 1.25rem;
+    }
+
+    .tibakeMainSection .description {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}
