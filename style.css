@@ -565,7 +565,100 @@ footer .footerMain .copyRight {
     color: #fff;
 }
 
+
+
+.fagoMain {}
+
+.fagoMain .heading {
+    font-family: Anybody;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF0E6;
+}
+
+.fagoMain .itemInfo .heading {
+    font-family: Anybody;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 41.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C1DBCD;
+}
+
+.fagoMain .itemInfo .info {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFF0E6;
+}
+
+.fagoMain .card-section .card {
+    background-color: #000000;
+}
+
+.fagoMain .card-section .card .card-content .count {
+    width: 30px;
+    height: 30px;
+    background: #CC6666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100%;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.fagoMain .card-section .card .card-content .cardText {
+    color: white;
+}
+
+.fagoMain .card-section .card .card-content .cardText .name {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.fagoMain .card-section .card .card-content .cardText .title {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 9.68px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
 @media only screen and (max-width: 768px) {
+
+    .fagoMain .heading {
+        font-size: 8vw;
+        ;
+    }
+
     .logo {
         max-width: 124px;
     }
@@ -624,6 +717,15 @@ footer .footerMain .copyRight {
 }
 
 @media only screen and (max-width: 576px) {
+
+    .fagoMain .heading {
+        font-size: 8vw;
+    }
+
+    .fagoMain .itemInfo .heading {
+        font-size: 30px;
+    }
+
     footer .footerMain {
         align-items: start;
     }
